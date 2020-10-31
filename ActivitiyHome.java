@@ -19,9 +19,7 @@ public class ActivitiyHome extends AppCompatActivity {
             public void run() {
                 Intent mySuperIntent = new Intent(ActivitiyHome.this, MainActivity.class);
                 startActivity(mySuperIntent);
-                /* This 'finish()' is for exiting the app when back button pressed
-                 *  from Home page which is ActivityHome
-                 */
+          
                 finish();
             }
         }, 3000);
